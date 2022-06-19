@@ -1,3 +1,9 @@
+import ScanMark from "../../components/ScanMark";
+
 export default function BarcodeReader() {
-  return <h1>Barcode Reader</h1>;
+  return (
+    <>
+      <ScanMark />
+    </>
+  );
 }
