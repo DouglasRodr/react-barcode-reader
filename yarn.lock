@@ -5900,6 +5900,11 @@ js-yaml@^4.1.0:
   dependencies:
     argparse "^2.0.1"
 
+jsbarcode@^3.8.0:
+  version "3.11.5"
+  resolved "https://registry.yarnpkg.com/jsbarcode/-/jsbarcode-3.11.5.tgz#390b3efd0271f35b9d68c7b8af6e972445969014"
+  integrity sha512-zv3KsH51zD00I/LrFzFSM6dst7rDn0vIMzaiZFL7qusTjPZiPtxg3zxetp0RR7obmjTw4f6NyGgbdkBCgZUIrA==
+
 jsbn@~0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
@@ -7421,7 +7426,7 @@ prompts@^2.0.1, prompts@^2.4.2:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.8.1:
+prop-types@^15.6.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -7528,6 +7533,14 @@ react-app-polyfill@^3.0.0:
     raf "^3.4.1"
     regenerator-runtime "^0.13.9"
     whatwg-fetch "^3.6.2"
+
+react-barcode@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/react-barcode/-/react-barcode-1.4.1.tgz#516bdd97c09ece44b631c0790260e0cd2c6bc977"
+  integrity sha512-jzTPdGuAWpoya3i+e6YK60df8aA+NtYpzGf/xPxNpSL41oqqAS6v+QYW0N4CTeIFNo8ODX3siAnMY0rmL/UPgA==
+  dependencies:
+    jsbarcode "^3.8.0"
+    prop-types "^15.6.2"
 
 react-dev-utils@^12.0.1:
   version "12.0.1"
@@ -8517,6 +8530,16 @@ svgo@^2.7.0:
     csso "^4.2.0"
     picocolors "^1.0.0"
     stable "^0.1.8"
+
+sweetalert2-react-content@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/sweetalert2-react-content/-/sweetalert2-react-content-5.0.0.tgz#281466d1fe4c81f100e3a65daa0bfbab32c1a30d"
+  integrity sha512-j0R0+CN7DkgZIdRqU33NIdazleleyjJp1k3KmunnVYU+MLFsuhiOkV/jc7DfkvY3lhPqmg8OTe2n4/9/KMo4vA==
+
+sweetalert2@^11.4.18:
+  version "11.4.18"
+  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-11.4.18.tgz#fd8f57adacffad472ff0e28d6fc029ad521d14b2"
+  integrity sha512-BZPTQI54NYdjIVe2tmsS5JVU7E623P3Sv4ce3BO8V6PdeIdGPGmQm43ojr1cnpGJ1xYhbdwsHIH+t5tICvZ6ZA==
 
 symbol-tree@^3.2.4:
   version "3.2.4"
